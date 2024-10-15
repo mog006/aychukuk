@@ -1,0 +1,199 @@
+/* General Styles */
+body, html {
+    margin: 0;
+    background: white;
+    margin-top: 100vh;
+}
+
+/* Heading Styles */
+h2 {
+    font-size: 2.5rem;
+    color:#E0C65B !important;
+    margin-bottom: 2rem !important;
+    padding-top: 2rem !important;
+}
+
+/* Button Styles */
+#cta-button {
+    border-color: #E0C65B !important;
+    color: white !important;
+}
+
+#cta-button:hover {
+    border-color: white !important;
+    color: #E0C65B !important;
+}
+
+.btn-primary {
+    color: #E0C65B !important;
+    background-color: #001829 !important;
+}
+
+.btn-primary:hover {
+    color: #A38A00 !important;
+    background-color: #001829 !important;
+}
+
+.btn-outline-primary {
+    color: #001829 !important;
+    border-color: #E0C65B !important;
+}
+
+.btn-outline-primary:hover {
+    color: #E0C65B !important;
+    background-color: #001829 !important;
+}
+
+/* Navbar Styles */
+.navbar {
+    padding: 1rem;
+    transition: all 0.3s ease;
+}
+
+/* Shrinked Navbar Styles */
+.navbar.shrink {
+    padding: 10px 0;
+    background: linear-gradient(0deg, rgba(4, 20, 32, 0.9) 15%, rgba(1, 12, 19, 0.98) 100%);
+}
+
+.navbar.shrink .nav-link {
+    transition: all 0.5s ease;
+    padding: 0px !important;
+    font-size: 0.9rem !important;
+}
+
+/* Navbar background color change */
+.change-navbar-bg {
+    background: linear-gradient(0deg, rgba(4, 20, 32, 0.9) 15%, rgba(1, 12, 19, 0.98) 100%);
+}
+
+/* Navbar link styles */
+.nav-link {
+    color: #E0C65B !important;
+    font-weight: bold !important;
+    font-size: 1rem !important;
+    text-shadow: 3px 3px 7px #000;
+}
+
+.nav-link:hover {
+    color: #70774F !important;
+}
+
+/* Navbar brand logo for desktop */
+.navbar-brand .hidden-mobile {
+    transition: all 0.5s ease;
+    width: 501px;
+    height: 148px;
+}
+
+/* Shrinked navbar brand logo for desktop */
+.navbar.shrink .navbar-brand .hidden-mobile {
+    width: 217px;
+    height: 64px;
+}
+
+/* Navbar brand logo for mobile */
+.navbar-brand .visible-mobile {
+    transition: all 0.5s ease;
+    width: 148px;
+    height: 148px;
+}
+
+/* Shrinked navbar brand logo for mobile */
+.navbar.shrink .navbar-brand .visible-mobile {
+    width: 64px;
+    height: 64px;
+}
+
+/* Hero Section Styles */
+.hero-section {
+    background: url('/static/arkaplan.jpg') no-repeat center center/cover;
+    height: 100vh;
+    color: white;
+    position: relative;
+}
+
+/* Card Styles */
+.card {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    margin: 5px;
+}
+.ekibimiz-kart {
+    margin-bottom:15px;
+}
+.card-img-top  {
+    width: 100%;
+    height: 50vh;
+    object-fit: cover;
+}
+.card:hover {
+    transform: scale(1.05);
+}
+
+/* Container Styles */
+.container {
+    margin-bottom: 4rem;
+}
+
+#hero-container {
+    margin-bottom: 0;
+}
+
+/* Section IDs Scroll Margin */
+#hakkimizda, #cv, #ekibimiz, #calisma-alanlari {
+    scroll-margin-top: 100px;
+}
+
+/* Responsive Styles for Mobile */
+@media (max-width: 768px) {
+    .hero-section {
+        text-align: center;
+    }
+
+    .navbar .nav-link {
+        font-size: 1.2rem;
+    }
+    #InfoContainer {
+        margin-top:2rem;
+    }
+}
+
+/* Mobile Logo Visibility */
+.visible-mobile {
+    display: none !important;
+}
+
+@media (max-width: 489px) {
+    .visible-mobile {
+        display: inline !important;
+    }
+
+    .hidden-mobile {
+        display: none !important;
+    }
+}
+
+.hero-section {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    z-index: -1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.swiper {
+  width: 100%;
+}
+
+.swiper-pagination-bullet {
+    width: 30px !important;
+    height: 2px !important;
+    margin: 0 5px !important;
+    }
+
+
