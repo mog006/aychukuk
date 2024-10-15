@@ -1,3 +1,8 @@
-http://145.223.116.83 {
+www.aychukukdanismanlik.com {
+    redir https://aychukukdanismanlik.com{uri}
+
+}
+
+aychukukdanismanlik.com {
     reverse_proxy localhost:8000
 }
