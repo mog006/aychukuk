@@ -8,7 +8,7 @@ body, html {
 /* Heading Styles */
 h2 {
     font-size: 2.5rem;
-    color:#E0C65B !important;
+    color: #E0C65B !important;
     margin-bottom: 2rem !important;
     padding-top: 2rem !important;
 }
@@ -119,14 +119,17 @@ h2 {
     transition: transform 0.3s ease;
     margin: 5px;
 }
+
 .ekibimiz-kart {
-    margin-bottom:15px;
+    margin-bottom: 15px;
 }
-.card-img-top  {
+
+.card-img-top {
     width: 100%;
     height: 50vh;
     object-fit: cover;
 }
+
 .card:hover {
     transform: scale(1.05);
 }
@@ -154,8 +157,22 @@ h2 {
     .navbar .nav-link {
         font-size: 1.2rem;
     }
+
     #InfoContainer {
-        margin-top:2rem;
+        margin-top: 2rem;
+    }
+
+    #heroSubtitle {
+        text-shadow: 2px 2px 2px #000 !important;
+        font-size: 1.25rem !important;
+
+
+    }
+
+    #heroTitle {
+        text-shadow: 2px 2px 3px #000;
+        font-size: 2rem !important;
+        font-weight: bold;
     }
 }
 
@@ -187,24 +204,22 @@ h2 {
 }
 
 .swiper {
-  width: 100%;
+    width: 100%;
 }
 
 .swiper-pagination-bullet {
     width: 30px !important;
     height: 2px !important;
     margin: 0 5px !important;
-    }
+}
 
 #heroSubtitle {
     text-shadow: 2px 2px 2px #000;
     font-size: 1.75rem;
 
 
-
-
-
 }
+
 #heroTitle {
     text-shadow: 2px 2px 3px #000;
     font-size: 3rem;
