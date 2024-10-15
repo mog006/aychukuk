@@ -1,8 +1,3 @@
-www.aychukukdanismanlik.com {
-    redir https://aychukukdanismanlik.com{uri}
-
-}
-
 aychukukdanismanlik.com, www.aychukukdanismanlik.com {
   reverse_proxy localhost:8000  
 }
