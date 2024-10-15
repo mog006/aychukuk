@@ -3,6 +3,6 @@ www.aychukukdanismanlik.com {
 
 }
 
-aychukukdanismanlik.com {
-    reverse_proxy localhost:8000
+aychukukdanismanlik.com, www.aychukukdanismanlik.com {
+  reverse_proxy localhost:8000  
 }
