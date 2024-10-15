@@ -1,5 +1,4 @@
 import smtplib
-import fcntl
 from email.mime.text import MIMEText
 
 from flask_bootstrap import Bootstrap5
