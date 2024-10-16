@@ -31,7 +31,6 @@ h2 {
 #cta-button:hover {
     background-color: #E0C65B !important;
     color: #001829 !important;
-    border-color: #001829 !important;
     transform: scale(1.05);
 }
 
