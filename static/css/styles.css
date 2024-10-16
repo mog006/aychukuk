@@ -8,7 +8,7 @@ body, html {
 /* Heading Styles */
 h2 {
     font-size: 2.5rem;
-    color: #E0C65B !important;
+    color: #FFD700 !important;
     margin-bottom: 2rem !important;
     padding-top: 2rem !important;
 }
@@ -16,31 +16,43 @@ h2 {
 /* Button Styles */
 #cta-button {
     border-color: #E0C65B !important;
-    color: white !important;
+    padding: 15px 20px;
+    border-radius: 15px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+    z-index: 1000;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    color: #E0C65B !important;
+    background-color: #001829 !important;
 }
 
 #cta-button:hover {
-    border-color: white !important;
-    color: #E0C65B !important;
+    background-color: #E0C65B !important;
+    color: #001829 !important;
+    border-color: #001829 !important;
+    transform: scale(1.05);
 }
 
 .btn-primary {
-    color: #E0C65B !important;
+    color: #FFD700 !important;
     background-color: #001829 !important;
 }
 
 .btn-primary:hover {
-    color: #A38A00 !important;
-    background-color: #001829 !important;
+    background-color: #FFD700 !important;
+    color: #001829 !important;
+    border-color: #001829 !important;
 }
 
 .btn-outline-primary {
     color: #001829 !important;
-    border-color: #E0C65B !important;
+    border-color: #FFD700 !important;
 }
 
 .btn-outline-primary:hover {
-    color: #E0C65B !important;
+    color: #FFD700 !important;
     background-color: #001829 !important;
 }
 
@@ -76,7 +88,7 @@ h2 {
 }
 
 .nav-link:hover {
-    color: #70774F !important;
+    color: #887300 !important;
 }
 
 /* Navbar brand logo for desktop */
@@ -107,11 +119,28 @@ h2 {
 
 /* Hero Section Styles */
 .hero-section {
-    background: url('/static/arkaplan.jpg') no-repeat center center/cover;
+    background: url('/static/arkaplan.png') no-repeat center center/cover;
     height: 100vh;
-    color: white;
     position: relative;
 }
+
+#heroTitle {
+    text-shadow: 2px 2px 3px #000;
+    font-family: "Cairo", sans-serif;
+    color: #E0C65B !important;
+    font-weight: 700;
+    font-size: 3rem;
+
+}
+
+#heroSubtitle {
+    text-shadow: 2px 2px 2px #000;
+    font-size: 1.75rem;
+    color: #fff9d6 !important;
+
+
+}
+
 
 /* Card Styles */
 .card {
@@ -132,6 +161,10 @@ h2 {
 
 .card:hover {
     transform: scale(1.05);
+}
+
+.card-title {
+    font-weight: bold;
 }
 
 /* Container Styles */
@@ -207,24 +240,10 @@ h2 {
     width: 100%;
 }
 
-.swiper-pagination-bullet {
-    width: 30px !important;
-    height: 2px !important;
-    margin: 0 5px !important;
+.swiper-slide {
+    margin-bottom: 15px !important;
 }
 
-#heroSubtitle {
-    text-shadow: 2px 2px 2px #000;
-    font-size: 1.75rem;
-
-
-}
-
-#heroTitle {
-    text-shadow: 2px 2px 3px #000;
-    font-size: 3rem;
-    font-weight: bold;
-}
 
 
 
