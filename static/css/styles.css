@@ -191,7 +191,7 @@ h2 {
     }
 
     #InfoContainer {
-        margin-top: 2rem;
+        margin-top: 2rem !important;
     }
 
     #heroSubtitle {
@@ -240,9 +240,12 @@ h2 {
 }
 
 .swiper-slide {
-    margin-bottom: 15px !important;
+    margin-bottom: 25px !important;
 }
 
+.calisma-kart {
+    height:260px !important;
+}
 
 
 
