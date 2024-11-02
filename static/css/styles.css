@@ -118,7 +118,7 @@ h2 {
 
 /* Hero Section Styles */
 .hero-section {
-    background: url('/static/arkaplan.png') no-repeat center center/cover;
+    background: url('/static/arkaplan.jpg') no-repeat center center/cover;
     height: 100vh;
     position: relative;
 }
@@ -135,7 +135,7 @@ h2 {
 #heroSubtitle {
     text-shadow: 2px 2px 2px #000;
     font-size: 1.75rem;
-    color: #fff9d6 !important;
+    color: white !important;
 
 
 }
