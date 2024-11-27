@@ -8,9 +8,10 @@ body, html {
 /* Heading Styles */
 h2 {
     font-size: 2.5rem;
-    color: #FFD700 !important;
+    color: #E0C65B !important;
     margin-bottom: 2rem !important;
     padding-top: 2rem !important;
+    font-weight:bold !important;
 }
 
 /* Button Styles */
