@@ -36,23 +36,23 @@ h2 {
 }
 
 .btn-primary {
-    color: #FFD700 !important;
+    color: #E0C65B !important;
     background-color: #001829 !important;
 }
 
 .btn-primary:hover {
-    background-color: #FFD700 !important;
+    background-color: #E0C65B !important;
     color: #001829 !important;
     border-color: #001829 !important;
 }
 
 .btn-outline-primary {
     color: #001829 !important;
-    border-color: #FFD700 !important;
+    border-color: #E0C65B !important;
 }
 
 .btn-outline-primary:hover {
-    color: #FFD700 !important;
+    color: #E0C65B !important;
     background-color: #001829 !important;
 }
 
@@ -150,7 +150,7 @@ h2 {
 }
 
 .ekibimiz-kart {
-    margin-bottom: 15px;
+    margin-bottom: 35px;
 }
 
 .card-img-top {
@@ -180,7 +180,9 @@ h2 {
 #hakkimizda, #cv, #ekibimiz, #calisma-alanlari {
     scroll-margin-top: 100px;
 }
-
+.cv-text {
+    text-align: justify !important;
+}
 /* Responsive Styles for Mobile */
 @media (max-width: 768px) {
     .hero-section {
